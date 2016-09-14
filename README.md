@@ -1,1 +1,3 @@
-# data-structure-review
+# Algorithm Review
+
+- binary search
