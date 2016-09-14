@@ -1,6 +1,6 @@
 ## binary search
 
-**what is it?** binary search is an algorithm that takes a sorted list and a target number as its inputs.
+**what is it?**  binary search is an algorithm that takes a sorted list and a target number as its inputs.
 
 **method:** to find the target number, you guess the middle number and eliminate half the remaining
 numbers each time.
