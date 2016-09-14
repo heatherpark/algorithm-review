@@ -5,9 +5,7 @@
 **method:** to find the target number, you guess the middle number and eliminate half the remaining
 numbers each time.
 
-**time complexity:** O(log n) because in the worst case, you have to check log n (where n is the size of the input list) elements.
-
-**time complexity example:** if you have a list of 8 elemeents, you have to check 3 elements, at most, because log base 2 of 8 is equal to 3.
+**time complexity:** O(log n) because in the worst case, you have to check log n (where n is the size of the input list) elements.  so, if you have a list of 8 elements, you have to check 3 elements, at most, because log base 2 of 8 is equal to 3.
 
 #### implementation
 
