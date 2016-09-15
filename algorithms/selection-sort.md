@@ -35,10 +35,10 @@ function findSmallestIndex(array, min) {
 function selectionSort(array) {
   // loop through array
   for (var i = 0; i < array.length; i++) {
-    // set lower boundary for subarray to curent iteration index
+    // set lower boundary for subarray to current iteration index
     var min = i;
     // findSmallestIndex will return smallest element of subarray
-    // subarray is defined as all items after current item
+    // subarray is defined as current item plus all subsequent items
     var smallestIndex = findSmallestIndex(array, min);
 
     // switch smallest item of subarray with first item of subarray if they are not equal
