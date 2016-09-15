@@ -1,7 +1,5 @@
 ## binary search
 
-**what is it?**  binary search is a search algorithm that takes a sorted list and a target number to search for as its inputs.
-
 **method:**
   * a binary search function takes a sorted list and a target number as its inputs
   * set your guess to the middle number and compare with the target
