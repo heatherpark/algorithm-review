@@ -6,9 +6,10 @@
   * divide input list into two parts:
     1. the sublist of already sorted items
     2. the sublist of items remaining to be sorted
-  * find smallest element in unsorted sublist.
-  * exchange that element with the leftmost unsorted element.
-  * move sublist boundaries one element to the right.
+  * find smallest element in unsorted sublist
+  * exchange that element with the leftmost unsorted element
+  * move left sublist boundary one element to the right
+  * repeat with new sublist until all sublists have been sorted
 
 **time complexity:** O(n^2), or quadratic time.
 
