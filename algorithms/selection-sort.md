@@ -11,7 +11,7 @@
   * move unsorted sublist's left boundary one element to the right
   * repeat with new sublist until all sublists have been sorted
 
-**time complexity:** O(n^2), or quadratic time.
+**time complexity:** O(n^2), or quadratic time.  For every list element, you are checking x number of list elements.  this results in O(n * xn), which gives us O(xn^x).  for time complexity, constants are negligible, so the time complexity thus becomes O(n^2).
 
 #### implementation
 
@@ -35,13 +35,13 @@ function findSmallestIndex(array, min) {
 function selectionSort(array) {
   // loop through array
   for (var i = 0; i < array.length; i++) {
-    // set lower boundary for subarray to current iteration index
+    // set left boundary for unsorted sublist to current iteration index
     var min = i;
-    // findSmallestIndex will return smallest element of subarray
-    // subarray is defined as current item plus all subsequent items
+    // findSmallestIndex will return smallest element of unsorted sublist
+    // unsorted sublist is defined as current item plus all subsequent items
     var smallestIndex = findSmallestIndex(array, min);
 
-    // switch smallest item of subarray with first item of subarray if they are not equal
+    // switch smallest item of unsorted sublist with first item of unsorted sublist if they are not equal
     if (array[smallestIndex] !== array[min]) {
       var temp = array[min];
       array[min] = array[smallestIndex];
