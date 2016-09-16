@@ -8,7 +8,7 @@
     2. the sublist of items remaining to be sorted
   * find smallest element in unsorted sublist
   * exchange that element with the leftmost unsorted element
-  * move left sublist boundary one element to the right
+  * move unsorted sublist's left boundary one element to the right
   * repeat with new sublist until all sublists have been sorted
 
 **time complexity:** O(n^2), or quadratic time.
