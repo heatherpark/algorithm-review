@@ -11,7 +11,7 @@
   * move unsorted sublist's left boundary one element to the right
   * repeat with new sublist until all sublists have been sorted
 
-**time complexity:** O(n^2), or quadratic time.  For every list element, you are checking x number of list elements.  this results in O(n * xn), which gives us O(xn^2).  for time complexity, constants are negligible, so the time complexity thus becomes O(n^2).
+**time complexity:** O(n^2), or quadratic time.
 
 #### implementation
 
